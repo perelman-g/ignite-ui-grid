@@ -1,7 +1,7 @@
 
 
 import { Component, NgModule } from '@angular/core';
-import { IgHierarchicalGridComponent } from 'igniteui-angular2';
+import { IgHierarchicalGridComponent } from './igniteui-angular2/igniteui.angular2';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';

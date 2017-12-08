@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IgHierarchicalGridComponent } from 'igniteui-angular2';
+import { IgHierarchicalGridComponent } from './igniteui-angular2/igniteui.angular2';
 
 @Component({
   selector: 'app-root',
