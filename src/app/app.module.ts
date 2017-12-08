@@ -1,13 +1,15 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
 
+
+import { Component, NgModule } from '@angular/core';
+import { IgHierarchicalGridComponent } from 'igniteui-angular2';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent, IgHierarchicalGridComponent
   ],
   imports: [
     BrowserModule
