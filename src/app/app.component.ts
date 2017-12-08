@@ -70,12 +70,13 @@ export class AppComponent {
   }
   changeHandler(event):void {
     var val = event.currentTarget.value;
+    this.data.length = 0;
     if(val === "1"){
-      this.data = this.data1;
+       Array.prototype.push.apply( this.data, this.data1);
     } else if(val === "2") {
-      this.data = this.data2;
+        Array.prototype.push.apply( this.data, this.data2);
     }  else if(val === "3")  {
-        this.data = this.data3;
-    }   
+        Array.prototype.push.apply( this.data, this.data3);
+    }
   }
 }
